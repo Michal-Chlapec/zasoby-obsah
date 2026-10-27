@@ -47,16 +47,6 @@
       "date": "2026-10-24",
       "file": "clanky/skladovani.md",
       "tags": ["sklep", "špajz", "teplota"]
-    },
-    {
-      "id": "ohnen-zaklad",
-      "title": "Oheň je největší základ",
-      "summary": "Vždy za každých okolností musíš umět rozdělat oheň.",
-      "category": "zaciname",
-      "image": "obrazky/zaciname.jpg",
-      "date": "2026-10-24",
-      "file": "clanky/ohen-zaklad.md",
-      "tags": ["sklep", "špajz", "teplota"]
     }
   ]
 }
