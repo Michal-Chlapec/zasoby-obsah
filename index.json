@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "updated": "2026-10-27",
+  "categories": [
+    { "id": "zaciname", "title": "Začínáme", "icon": "sparkles" },
+    { "id": "skladovani", "title": "Skladování", "icon": "cabinet" },
+    { "id": "nouzova", "title": "Nouzová zásoba", "icon": "shield.lefthalf.filled" },
+    { "id": "tipy", "title": "Tipy a triky", "icon": "lightbulb" }
+  ],
+  "articles": [
+    {
+      "id": "zaciname",
+      "title": "Jak začít se zásobami",
+      "summary": "Proč mít doma zásobu, jak ji založit za jedno odpoledne a jak ji udržet bez stresu.",
+      "category": "zaciname",
+      "image": "obrazky/zaciname.jpg",
+      "date": "2026-10-27",
+      "file": "clanky/zaciname.md",
+      "tags": ["začátek", "spíž", "plán"]
+    },
+    {
+      "id": "rotace-fifo",
+      "title": "Rotace zásob: první dovnitř, první ven",
+      "summary": "Jednoduchý systém, díky kterému vám nic neprojde a nic nevyhodíte.",
+      "category": "skladovani",
+      "image": "obrazky/rotace.jpg",
+      "date": "2026-10-26",
+      "file": "clanky/rotace-fifo.md",
+      "tags": ["FIFO", "expirace", "rotace"]
+    },
+    {
+      "id": "nouzova-zasoba-14-dni",
+      "title": "Nouzová zásoba na 14 dní pro 2 osoby",
+      "summary": "Konkrétní seznam, co nakoupit, kolik toho je a kolik to stojí. Přidáte do nákupu jedním klepnutím.",
+      "category": "nouzova",
+      "image": "obrazky/nouzova.jpg",
+      "date": "2026-10-25",
+      "file": "clanky/nouzova-zasoba.md",
+      "tags": ["nouzová", "14 dní", "seznam"]
+    },
+    {
+      "id": "skladovani-potravin",
+      "title": "Kde a jak skladovat, aby zásoby vydržely",
+      "summary": "Teplota, světlo, vlhkost a škůdci. Co kam patří a co se nesmí potkat.",
+      "category": "skladovani",
+      "image": "obrazky/skladovani.jpg",
+      "date": "2026-10-24",
+      "file": "clanky/skladovani.md",
+      "tags": ["sklep", "špajz", "teplota"]
+    }
+  ]
+}
