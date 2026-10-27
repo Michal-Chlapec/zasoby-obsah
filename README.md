@@ -80,7 +80,8 @@ Do `oznameni.json` přidej na začátek pole nový záznam:
   "title": "Sleva na konzervy v Lidlu",
   "text": "Do neděle jsou konzervy tuňáka za 19 Kč. Dobrá příležitost doplnit zásobu.",
   "date": "2026-10-27",
-  "url": "https://www.lidl.cz/",
+  "url": "https://www.lidl.cz/letak",
+  "urlTitle": "Otevřít leták",
   "validUntil": "2026-11-02",
   "important": false
 }
@@ -89,6 +90,11 @@ Do `oznameni.json` přidej na začátek pole nový záznam:
 - `id` musí být unikátní (uživateli vyskočí každé `id` jen jednou).
 - `validUntil` je nepovinné – po tomto datu se oznámení už nezobrazuje.
 - `important: true` zvýrazní oznámení červeně.
+- `url` je nepovinný odkaz pod oznámením; `urlTitle` je popisek tlačítka (výchozí „Otevřít odkaz“).
+- Odkazy jdou dát i **přímo do textu**: `[Leták Lidl](https://www.lidl.cz/letak)` nebo jen holá
+  adresa `https://www.lidl.cz` – obojí je v appce klikací. Uvozovky v textu se v JSON zapisují jako `\"`.
+- Uživatel vidí nové oznámení v okně při otevření appky, pak na hlavní straně záložky *Připraven*,
+  dokud ho neoznačí jako přečtené. Ve „Všechny“ zůstává do data `validUntil`.
 - Uživatelům s aplikací na pozadí přijde lokální upozornění při nejbližší kontrole (iOS ji
   spouští zhruba jednou za několik hodin, podle používání telefonu).
 
